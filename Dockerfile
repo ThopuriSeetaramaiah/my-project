@@ -1,5 +1,5 @@
 FROM openjdk:8-jre-alpine
-
+#expose port
 EXPOSE 8080
 
 COPY ./build/libs/test-app-1.0-SNAPSHOT.jar /usr/app/
